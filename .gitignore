@@ -1,0 +1,10 @@
+.vscode/
+build/
+*.blif
+*.asc
+*.bin
+*.rpt
+*.vvp
+*.vcd
+*.hex
+*.raw
