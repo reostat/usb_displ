@@ -7,7 +7,7 @@ Demo project for driving SSD1331 PMOD display connected to Lattice ICEstick boar
 - FPGA code: yosys, arachne_pnr, icebox tools (icepack, icetime, iceprog), iverilog, gtkwave
 
 ## Build
-Don't forget to `git submodule init` after cloning.
+Don't forget to `git submodule init && git submodule update` after cloning.
 - For FPGA side: `cd fpga_code` then `make all` then `make prog`
 - For PC side: `cd pc_code`, `mkdir build`, `cd build`, `cmake .. && make`
 
