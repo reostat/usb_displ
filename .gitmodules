@@ -1,3 +1,4 @@
 [submodule "pc_code/lib_ssd1331"]
 	path = pc_code/lib_ssd1331
 	url = https://github.com/reostat/lib_ssd1331.git
+	branch = master
