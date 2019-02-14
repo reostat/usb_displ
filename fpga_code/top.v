@@ -66,7 +66,7 @@ assign LED2 = ~FTDI_CS;
 assign LED1 = ~FTDI_CS & oled_d_cn;
 assign LED3 = ~FTDI_CS & ~oled_d_cn;
 
-pwr_on_ctl #(
+pwr_on_ctl_mem #(
     .CLK_FREQ(CLK_FREQ),
     .DISPLAY_MODE(8'hA4)
 ) pwr_on (

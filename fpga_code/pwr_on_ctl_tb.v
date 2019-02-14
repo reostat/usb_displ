@@ -10,7 +10,7 @@ reg rst = 1;
 always #0.5 clk = ~clk;
 
 // set frequency lower so we don't have to look at all those delay counters
-pwr_on_ctl #(.CLK_FREQ(120000)) pwr_on (
+pwr_on_ctl_mem #(.CLK_FREQ(120000)) pwr_on (
     .clk(clk),
     .reset(rst)
 );
